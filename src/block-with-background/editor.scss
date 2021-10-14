@@ -1,0 +1,11 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import "../mixins";
+
+.wp-block-esports-certificate-block-block-with-background {
+  @include card-styling;
+}

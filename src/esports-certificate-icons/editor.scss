@@ -1,0 +1,20 @@
+.esports-certificate-icon-settings-label {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.esports-certificate-icon-options {
+  button {
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+
+	svg {
+	  height: 60%;
+	}
+
+	&.selected {
+	  box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 50%);
+	}
+  }
+}
